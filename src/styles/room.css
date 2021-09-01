@@ -12,6 +12,13 @@
 #page-room header .content > img {
   max-height: 45px;
 }
+#page-room header .content > div {
+  display: flex;
+  gap: 16px;
+}
+#page-room header .content > div button {
+  height: 40px;
+}
 #page-room main {
   max-width: 800px;
   margin: 0 auto;
@@ -79,6 +86,9 @@
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
+}
+#page-room main .question-list {
+  margin-top: 32px;
 }
 
 /*# sourceMappingURL=room.css.map */
